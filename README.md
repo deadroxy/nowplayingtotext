@@ -30,7 +30,7 @@ Installation & Use
 10. Navigate to the location where the `NowPlayingToText.app` is located.
 11. Select the file named `NPTT.txt` (which was created when you launched the applet).
 12. Adjust the font style of the text to your liking.
-13. Click "OK" on the source properties screen to complete the setup.
+13. Click `OK` on the source properties screen to complete the setup.
 
 Once you have configured OBS to use NowPlayingToText you only need to ensure the applet is running to be able to see the current track information from iTunes on your stream.
 
