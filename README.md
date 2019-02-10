@@ -23,10 +23,10 @@ Installation & Use
 3. Double click the NowPlayingToText icon to launch the applet.
 4. Open OBS and select the scene you'd like to modify.
 5. Click the plus button to add a new source.
-6. Choose "Text (FreeType 2)" as the type of course.
-7. Set the title for the source to "NowPlayingToText" and click OK.
-8. On the source properties screen check the box marked "Read From File".
-9. Click the "Browse" button next to the field titled "Text File".
+6. Choose `Text (FreeType 2)` as the type of course.
+7. Set the title for the source to `NowPlayingToText` and click OK.
+8. On the source properties screen check the box marked `Read From File`.
+9. Click the `Browse` button next to the field titled `Text File`.
 10. Navigate to the location where the `NowPlayingToText.app` is located.
 11. Select the file named `NPTT.txt` (which was created when you launched the applet).
 12. Adjust the font style of the text to your liking.
@@ -39,19 +39,25 @@ Expected Behavior
 
 The first time NowPlayingToText runs it will create the `NPTT.txt` file in the same directory the applet was launched from. Be warned that if a file with the same name already exists in that directory, it will be overwritten. After the applet is launched it will continue running in the background and it's icon will appear in the dock. To stop the applet, simply quit it as you would any other application using `⌘+Q`.
 
-The text in the output file follows a simple format:
+The text in the output file follows a simple format...
 
-*If a track is playing*: **Track Title by Artist Name**
+*If a track is playing*\
+**Track Title by Artist Name**
 
-*If a radio/internet stream without metadata is playing*: **Stream Name**
+*If a radio/internet stream without metadata is playing*\
+**Stream Name**
 
-*If a radio/internet stream with metadata is playing*: **Stream Name: Current Track**
+*If a radio/internet stream with metadata is playing*\
+**Stream Name: Current Track**
 
-*If iTunes is paused*: **::suspenseful crickets::**
+*If iTunes is paused*\
+**::suspenseful crickets::**
 
-*If iTunes is not running or is stopped*: **::sound of the void::**
+*If iTunes is not running or is stopped*\
+**::sound of the void::**
 
-*If NowPlayingToText is not running*: **NowPlayingToText has powered down.**
+*If NowPlayingToText is not running*\
+**NowPlayingToText has powered down.**
 
 
 License
