@@ -19,7 +19,7 @@ Installation & Use
 ------------------
 
 1. Fork, clone or download this repo to your local machine.
-2. Move `NowPlayingToText.app` to a permanent location, such as the folder which contains other scripts used during streaming.
+2. Move `NowPlayingToText.app` to a permanent location, such as the Applications folder.
 3. Double click the NowPlayingToText icon to launch the applet.
 4. Open OBS and select the scene you'd like to modify.
 5. Click the plus button to add a new source.
@@ -32,6 +32,7 @@ Installation & Use
 12. Adjust the font style of the text to your liking.
 13. Click "OK" on the source properties screen to complete the setup.
 
+Once you have configured OBS to use NowPlayingToText you only need to ensure the applet is running to be able to see the current track information from iTunes on your stream.
 
 Expected Behavior
 -----------------
@@ -40,23 +41,17 @@ The first time NowPlayingToText runs it will create the `NPTT.txt` file in the s
 
 The text in the output file follows a simple format:
 
-**If a track is playing**
-"Track Title by Artist Name"
+*If a track is playing*: **Track Title by Artist Name**
 
-**If a radio/internet stream without metadata is playing**
-"Stream Name"
+*If a radio/internet stream without metadata is playing*: **Stream Name**
 
-**If a radio/internet stream with metadata is playing**
-"Stream Name: Current Track"
+*If a radio/internet stream with metadata is playing*: **Stream Name: Current Track**
 
-**If iTunes is paused**
-"::suspenseful crickets::"
+*If iTunes is paused*: **::suspenseful crickets::**
 
-**If iTunes is not running or is stopped**
-"::sound of the void::"
+*If iTunes is not running or is stopped*: **::sound of the void::**
 
-**If NowPlayingToText is not running**
-"NowPlayingToText has powered down."
+*If NowPlayingToText is not running*: **NowPlayingToText has powered down.**
 
 
 License
