@@ -3,7 +3,7 @@ Now Playing To Text
 
 NowPlayingToText is a stay open AppleScript applet that writes current iTunes track information to a text file.
 
-While this applet is running, the current track (or internet stream) playing in iTunes will be written out to `NPTT.txt`. The file will be created in the same directory where this applet was launched from. You can use this output as a text source in OBS to display information about the music playing during a stream.
+While this applet is running, the current track (or internet stream) playing in iTunes will be written out to `NPTT.txt`. The file will be created in the same directory where this applet is launched from. You can use this output as a text source in OBS to display information about the music playing during a stream.
 
 
 Included Files
