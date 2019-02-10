@@ -1,0 +1,5 @@
+# Ignore the output file
+NPTT.txt
+
+# Ignore Mac garbage
+.DS_Store
