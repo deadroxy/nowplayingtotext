@@ -41,22 +41,22 @@ The first time NowPlayingToText runs it will create the `NPTT.txt` file in the s
 
 The text in the output file follows a simple format:
 
-**If a track is playing**\
+***If a track is playing***\
 Track Title by Artist Name
 
-**If a radio/internet stream without metadata is playing**\
+***If a radio/internet stream without metadata is playing***\
 Stream Name
 
-**If a radio/internet stream with metadata is playing**\
+***If a radio/internet stream with metadata is playing***\
 Stream Name: Current Track
 
-**If iTunes is paused**\
+***If iTunes is paused***\
 ::suspenseful crickets::
 
-**If iTunes is not running or is stopped**\
+***If iTunes is not running or is stopped***\
 ::sound of the void::
 
-**If NowPlayingToText is not running**\
+***If NowPlayingToText is not running***\
 NowPlayingToText has powered down.
 
 
